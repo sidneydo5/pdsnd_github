@@ -1,17 +1,27 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+8/6/2023
 
 ### Project Title
-Replace the Project Title
+U.S. Bikeshare Data Analyis
 
 ### Description
-Describe what your project is about and what it does
+Generates useful statistical databased on user input.
 
 ### Files used
-Include the files used
+chicago.csv
+washington.csv
+new_york_city.csv
+readme.txt
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+References Used For Research:
+Practice Problems from Python Project Lesson
+Prior Reviews from Udacity Mentors & Reviewers
+Kaggle.com Blogs, minicourses and fellow Kagglers
+https://stackoverflow.com/questions/63229237/finding-the-most-frequent-combination-in-dataframe
+https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.hour.html
+https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.dayofweek.html
+https://pandas.pydata.org/docs/reference/api/pandas.Series.str.contains.html
