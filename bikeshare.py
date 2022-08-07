@@ -1,3 +1,4 @@
+# Creates a notebook to enable user input to see vital statistics to aid them in making decisions in bike rentals around NYC, Washingtona dn Chicago.
 import time
 import pandas as pd
 import numpy as np
@@ -19,7 +20,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input('Please input a city (Chicago, New York City or Washington) to display data from: ''').lower()
-        if city in CITY_DATA.keys():
+        if city in CITY_DATA: # Use .keys() if you want to iterate over only the keys.
             break
         else:
             print('\nSorry, you typed an incorrect city. Please enter Chicago, New York City or Washington to display your data.\n')
