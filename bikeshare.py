@@ -1,3 +1,4 @@
+# Creates a notebook to enable user input to see vital statistics to aid them in making decisions in bike rentals around NYC, Washingtona dn Chicago.
 import time
 import pandas as pd
 import numpy as np
